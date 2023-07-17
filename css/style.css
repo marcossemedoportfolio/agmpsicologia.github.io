@@ -1,0 +1,183 @@
+body {
+	background-color: #F2F5F7;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+
+img {
+	display: flex;
+	width: 30%;
+	justify-content: flex-start;
+}
+
+
+
+.container {
+	background-color: #fbe7db;
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal-nav-link {
+	text-decoration: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #fbe7db;
+	background-color: #fbe7db;
+	display: block;	
+	font-weight: bold;
+	
+}
+
+.cabecalhoPrincipal-nav {
+	width: auto;
+}
+
+.cabecalhoPrincipal-nav-link {
+	text-decoration: none;
+	color: inherit;
+	transition: 0.5s;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+	color: gray;
+}
+
+#agendamento {
+	border: 1px solid #9799A6;
+	background: #fc5603;
+	border-radius: 5px;
+	color: white;
+}
+
+#agendamento:hover {
+	box-shadow: 2px 2px 2px gray;
+	font-size: 16.5px;
+}
+
+.conteudoPrincipal {
+	width: 94%;
+	margin: 0 auto;
+}
+
+#img-consultorio {
+ 	display: inline-flex;
+ 	opacity: 21%;
+ 	height: 40%;
+ 	width: 100%;
+ 	animation-duration: 2s;
+ 	animation-name: opacityimgfundo;
+}
+
+.psico {
+	font-size: 40px;
+	animation-duration: 2s;
+ 	animation-name: opacitytexto;
+}
+
+.terapia {
+	font-size: 40px;
+	animation-duration: 2s;
+ 	animation-name: opacitytexto;
+}
+
+.texto {
+	font-size: 20px;
+	animation-duration: 2s;
+ 	animation-name: opacitytexto;
+}
+
+.img-gif {
+	width: 20px;
+	animation-duration: 2s;
+ 	animation-name: opacitytexto;
+}
+
+.agendar-consulta {
+	border: 1px solid #9799A6;
+	background-color: #fc5603;
+	color: white;
+	text-decoration: none;
+	animation-duration: 2s;
+ 	animation-name: opacitytexto;
+}
+
+@keyframes opacityimgfundo {
+	from {
+		opacity: 10%;
+	}
+
+	to {
+		opacity: 21%;
+	}
+}
+
+@keyframes opacitytexto {
+	from {
+		opacity: 10%;
+	}
+
+	to {
+		opacity: 100%;
+	}
+}
+
+.imagemgabi {
+	border-radius: 100%;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+.textogabi p {
+	
+	margin-bottom: 40px;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+.titulotexto {
+	font-weight: bold;
+	font-size: 20px;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+.tipoconsulta {
+	font-weight: bold;
+	font-size: 20px;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+
+.instagram {
+	background-color: #fbe7db;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+.textoinstagram {
+	font-weight: bold;
+	font-size: 25px;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+
+footer {
+	background-color: #fbe7db;
+	animation-duration: 2s;
+	animation-name: opacitytexto;
+}
+
+	@media(max-width: 768px){
+		
+		.psico {
+  			font-size: 20px;
+  			animation-duration: 2s;
+  			animation-name: opacitytexto;
+  		}	
+
+
+
+
