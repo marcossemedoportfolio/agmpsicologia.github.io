@@ -121,6 +121,12 @@ footer {
 	  			justify-content: flex-start;
   			}
 
+			.container {
+				background-color: #fbe7db;
+				width: 100%;
+				margin: 0 auto;
+			 } 
+
   			.cabecalhoPrincipal-nav {
   				display: flex;
   				flex-direction: column-reverse;
